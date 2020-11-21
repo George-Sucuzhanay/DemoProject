@@ -1,18 +1,79 @@
-
 header
 {
-	background-image: url("https://images.unsplash.com/photo-1451522977452-041601b22181?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+	background-image: url("https://images.unsplash.com/photo-1515444744559-7be63e1600de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60");
 	height: 650px;
-	width:100%;
 	background-size: cover;
 	color:white;
 }
-header p{
-  font-size: 20px;
+.navbarNav {
+  height: 50px;
+  padding: 70px;
+
+
 }
+.navbar img {
+  width: 110px;
+  display: inline;
+}
+.nav-item active, a {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Nav-subscribe-toggle, a{
+    margin-left: auto;
+    min-width: 0;
+    font-weight: 700;
+}
+.Nav .Nav-inner>* {
+    flex-shrink: 0;
+}
+.Nav-subscribe-toggle {
+    position: right;
+    vertical-align: middle;
+    transition: color .25s;
+}
+
+header p{
+  font-size: 50px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+  text-shadow: 2px 2px blue;
+}
+
 .banner
 {
 	color: rgb(35, 35, 48);
+}
+#d {
+  color: teal;
+}
+/*Outreach Section*/
+.outreach img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.outreach h1 {
+  font-size: 50px;
+  line-height: bolddisplay: inline-block;
+}
+.outreach h3 {
+  font-size: 28px;
+}
+.outreach p {
+  font-size: 15px;
+ 
+}
+.Impact-items {
+    list-style-type: none;
+    margin-top: 3em;
+    display: grid;
+    grid-gap: 3em;
+    max-width: 30em;
+    margin-left: 0;
 }
 
 /*Services*/
@@ -25,6 +86,10 @@ header p{
 {
 color: dimgrey;
 }
+.services img {
+  width: 70px;
+}
+
 /*Team*/
 .team
 {
