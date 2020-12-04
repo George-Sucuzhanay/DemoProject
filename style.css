@@ -156,9 +156,9 @@ header p{
   text-align: center;
 }
 .team h1 {
-  justify-content: space-around; 
 	background-color: rgb(35, 35, 48);
 	color: white;
+  font-size: 30px;
 }
 .team img 
 {
